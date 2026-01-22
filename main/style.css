@@ -1,0 +1,36 @@
+html, body, .barAndLabel{
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+body{
+    background-color: antiquewhite;
+}
+.chart-container {
+    background-color: aliceblue;
+    padding: 6%;
+    border-radius: 25px;
+    height: 40%;
+    display: flex;
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.barAndLabel{
+display: flex;
+flex-direction: column-reverse;
+}
+
+.bar {
+    width: 90px;
+    border-radius: 8px 8px 0 0 ;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+.label {
+    position: absolute;
+    font-size: 18px;
+    bottom: 20px;
+    text-align: center;
+    width: 80px;
+}
